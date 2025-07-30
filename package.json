@@ -1,0 +1,38 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "lint": "eslint .",
+    "unit": "jest"
+  },
+  "keywords": [
+    "backend",
+    "template",
+    "prashant",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Prashant Adhikari contact@prashantadhikari7.com.np",
+  "license": "MIT",
+  "type": "commonjs",
+  "description": "A template for backend Node.js projects.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pr4shxnt/backend-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pr4shxnt/backend-template/issues"
+  },
+  "homepage": "https://github.com/pr4shxnt/backend-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "envconfig": "^1.0.2",
+    "eslint": "^9.32.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.5",
+    "nodemon": "^3.1.10"
+  }
+}
